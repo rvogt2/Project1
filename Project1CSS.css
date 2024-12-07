@@ -1,0 +1,21 @@
+/**
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
+**/
+body {
+  background-color: turquoise;
+}
+nav {
+  text-align:left;
+  list-style: none;
+  background-color:black;
+  color:white;
+}
+footer {
+  position: fixed;
+  left:0;
+  bottom:0;
+}
