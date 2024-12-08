@@ -43,11 +43,16 @@
     <p>As the name could suggest, this data is meant to be an entry into the debate event known as "Hypotheticality", where heros and villains as well as other storied entities must fight for a decisive victory.
     <div id="form-container">
         <form action="https://formspree.io/f/xrbgvebg" method="post">
-            <input type="text" value=" Name" name="charName" required/>
+            <input type="text" value="Name" name="charName" required/>
             <input type="text" value="Powers" name="charAbility" required/>
-            <input type="checkbox" name="charAlign"/>
-            <input type="checkbox" name="charAlign"/>
-
+            <div>Is the character
+                <span>Good
+                    <input type="radio" name="charAlign" id="alignGood"/>
+                </span>
+                     or
+                <span>Evil
+                    <input type="radio" name="charAlign" id=""/></span>
+            </div>
             <input type="submit" value="submit"/>
         </form>
         <!--This HAS been verified to output to the source specified-->

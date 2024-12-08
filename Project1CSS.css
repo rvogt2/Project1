@@ -24,7 +24,11 @@ nav {
 #hamMenuContent a:hover {
   color:red;
 }
-
+form {
+  text-align: center;
+  border:black 1px solid;
+  width: 275px;
+}
 footer {
   position: fixed;
   left:0;
