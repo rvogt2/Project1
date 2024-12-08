@@ -1,10 +1,10 @@
-/**
+
 @media only screen and (max-width: 800px) {
   body {
     background-color: lightblue;
   }
 }
-**/
+
 body {
   background-color: turquoise;
 }
@@ -12,7 +12,17 @@ nav {
   text-align:left;
   list-style: none;
   background-color:black;
-  color:white;
+  color:turquoise;
+}
+nav img {
+  background-color:white;
+  border:2px teal solid;
+}
+#hamMenuContent {
+  display:none;
+}
+#hamburgerMenu:hover,#hamMenuContent:hover,#BurgerButton:hover {
+  display: block;
 }
 footer {
   position: fixed;
