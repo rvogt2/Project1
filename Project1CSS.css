@@ -18,14 +18,18 @@ nav img {
   background-color:white;
   border:2px teal solid;
 }
+
 #hamMenuContent {
-  display:none;
-}
-#hamburgerMenu:hover,#hamMenuContent:hover,#BurgerButton:hover {
-  display: block;
+  left:0;
+  padding:0;
+  border:0;
+  width:250px;
 }
 footer {
   position: fixed;
   left:0;
   bottom:0;
+  background-color:black;
+  color:white;
+  border:turquoise 2px solid;
 }
