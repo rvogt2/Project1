@@ -1,0 +1,1 @@
+As a Visitor, I want to submit a character, so it can be judged.
