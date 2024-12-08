@@ -5,7 +5,10 @@ body {
 
 nav {
   text-align:left;
-  list-style: none;
+}
+
+nav ul{
+  list-style-type: none;
 }
 
 #hamburgerMenu {
