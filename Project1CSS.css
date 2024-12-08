@@ -5,13 +5,10 @@ body {
 nav {
   text-align:left;
   list-style: none;
-  background-color:teal;
-}
-nav img {
-  border:2px teal solid;
 }
 #hamburgerMenu {
   width:250px;
+  background-color: teal;
 }
 #hamMenuContent {
   left:0;
@@ -40,3 +37,7 @@ footer a {
   color:white;
   text-decoration: none;
 }
+
+/**
+cant seem to figure out how to make this responsive without removing elements outright
+**/
