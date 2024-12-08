@@ -1,35 +1,42 @@
 
-@media only screen and (max-width: 800px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
 body {
   background-color: turquoise;
 }
 nav {
   text-align:left;
   list-style: none;
-  background-color:black;
-  color:turquoise;
+  background-color:teal;
 }
 nav img {
-  background-color:white;
   border:2px teal solid;
 }
-
+#hamburgerMenu {
+  width:250px;
+}
 #hamMenuContent {
   left:0;
   padding:0;
   border:0;
   width:250px;
 }
+
+#hamMenuContent a {
+  color:black;
+}
+
+#hamMenuContent a:hover {
+  color:red;
+}
+
 footer {
   position: fixed;
   left:0;
   bottom:0;
   background-color:black;
-  color:white;
+  color:teal;
   border:turquoise 2px solid;
+}
+footer a {
+  color:white;
+  text-decoration: none;
 }
