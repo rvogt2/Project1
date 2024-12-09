@@ -10,6 +10,9 @@ nav {
 nav ul{
   list-style-type: none;
 }
+nav img, #burgerButton{
+  width: 20%;
+}
 
 #hamburgerMenu {
   width:250px;
